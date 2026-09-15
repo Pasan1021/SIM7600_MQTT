@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 2,
+  "name": "MQTT TEST",
+  "target": {
+    "framework": "arduino",
+    "board": "esp32:esp32:esp32_family",
+    "options": {},
+    "sketchPath": "Smart_Controller"
+  },
+  "serial": null,
+  "build": {
+    "properties": []
+  },
+  "createdAt": "2026-09-15T06:56:54.044Z",
+  "updatedAt": "2026-09-15T06:56:54.044Z"
+}
