@@ -3,14 +3,29 @@
   "name": "MQTT TEST",
   "target": {
     "framework": "arduino",
-    "board": "esp32:esp32:esp32_family",
-    "options": {},
-    "sketchPath": "Smart_Controller"
+    "board": "esp32:esp32:esp32",
+    "options": {
+      "CPUFreq": "240",
+      "DebugLevel": "none",
+      "EraseFlash": "none",
+      "EventsCore": "1",
+      "FlashFreq": "80",
+      "FlashMode": "qio",
+      "FlashSize": "4M",
+      "JTAGAdapter": "default",
+      "LoopCore": "1",
+      "PartitionScheme": "default",
+      "PSRAM": "disabled",
+      "UploadSpeed": "921600",
+      "ZigbeeMode": "default"
+    }
   },
-  "serial": null,
+  "serial": {
+    "baudRate": 115200
+  },
   "build": {
     "properties": []
   },
   "createdAt": "2026-09-15T06:56:54.044Z",
-  "updatedAt": "2026-09-15T06:56:54.044Z"
+  "updatedAt": "2026-09-22T12:05:05.821Z"
 }
